@@ -18,9 +18,9 @@ public class NetzTesterPoti {
 
         for (double i = 400; i <= 5000; i+=200) {
             R4.setOhm(i);
-            System.out.println("R4 Wiederstand: " + R4.ohm() + " Ohm, Gesamtwiederstand: " + finalNet.ohm() + " Ohm");
+            System.out.println("R4 Widerstand: " + R4.ohm() + " Ohm, Gesamtwiderstand: " + finalNet.ohm() + " Ohm");
         }
         System.out.println();
-        System.out.println("Wiederstaende im Netz: " + finalNet.show());
+        System.out.println("Widerstaende im Netz: " + finalNet.show());
     }
 }

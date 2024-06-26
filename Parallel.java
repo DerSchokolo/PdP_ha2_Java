@@ -1,6 +1,6 @@
 public class Parallel extends Net {
-    private Net net1;
-    private Net net2;
+    private final Net net1;
+    private final Net net2;
 
     private Parallel(Net net1, Net net2) {
         this.net1 = net1;

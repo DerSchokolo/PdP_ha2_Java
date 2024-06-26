@@ -13,7 +13,7 @@ public class NetzTester {
         Net net4 = Parallel.newParallel(net2, net3);
         Net finalNet = Parallel.newParallel(net4,R6);
 
-        System.out.println("Gesamtwiederstand: " + finalNet.ohm() + " Ohm");
-        System.out.println("Wiederstaende im Netz: " + finalNet.show());
+        System.out.println("Gesamtwiderstand: " + finalNet.ohm() + " Ohm");
+        System.out.println("Widerstaende im Netz: " + finalNet.show());
     }
 }
