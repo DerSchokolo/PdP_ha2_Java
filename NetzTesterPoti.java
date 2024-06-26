@@ -1,3 +1,10 @@
+/*
+
+	Name: 		    Frederik Franzen
+	Matrikelnummer: 822760
+
+*/
+
 public class NetzTesterPoti {
     public static void main(String[] args) {
         Resistor R1 = new Resistor(100, "R1");

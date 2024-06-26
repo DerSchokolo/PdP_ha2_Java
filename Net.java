@@ -1,3 +1,10 @@
+/*
+
+	Name: 	    	Frederik Franzen
+	Matrikelnummer: 822760
+
+*/
+
 public abstract class Net {
     protected String[] resistors;
 

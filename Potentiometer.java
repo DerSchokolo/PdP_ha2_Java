@@ -1,3 +1,10 @@
+/*
+
+	Name: 		    Frederik Franzen
+	Matrikelnummer: 822760
+
+*/
+
 public class Potentiometer extends Net {
     private double resistance;
 

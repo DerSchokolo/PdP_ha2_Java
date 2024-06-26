@@ -1,3 +1,10 @@
+/*
+
+	Name: 		    Frederik Franzen
+	Matrikelnummer: 822760
+
+*/
+
 public class Serial extends Net {
     private final Net net1;
     private final Net net2;
