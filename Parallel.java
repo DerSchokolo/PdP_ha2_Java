@@ -25,7 +25,7 @@ public class Parallel extends Net {
 
     public static Parallel newParallel(Net net1, Net net2) {
         if (checkIDs(net1, net2)) {
-            System.out.println("Error: Conflicting IDs.");
+            System.out.println("Error: ID Konflikt");
             return null;
         }
         return new Parallel(net1, net2);

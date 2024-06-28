@@ -25,7 +25,7 @@ public class Serial extends Net {
 
     public static Serial newSerial(Net net1, Net net2) {
         if (checkIDs(net1, net2)) {
-            System.out.println("Error: Conflicting IDs.");
+            System.out.println("Error: ID Konflikt");
             return null;
         }
         return new Serial(net1, net2);
